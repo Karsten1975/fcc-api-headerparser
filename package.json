@@ -1,0 +1,14 @@
+{
+  "name": "header_parser",
+  "version": "1.0.0",
+  "description": "my solution to freecodecamps api backend project header parser microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kw1975",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
