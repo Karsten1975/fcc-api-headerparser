@@ -11,7 +11,6 @@ app.get("/", function(req, res){
     var softwareArrTwo = softwareArr[1].split(")");
     returnObj.software = softwareArrTwo[0];
     res.json(returnObj);
-    
 });
 
 app.listen(process.env.PORT, process.env.IP, function(){
